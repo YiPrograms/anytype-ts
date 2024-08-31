@@ -178,11 +178,6 @@ class Keyboard {
 
 		if (isMain) {
 
-			// Shortcuts
-			this.shortcut('ctrl+space', e, () => {
-				S.Popup.open('shortcut', { preventResize: true });
-			});
-
 			// Print
 			this.shortcut(`${cmd}+p`, e, () => {
 				e.preventDefault();
